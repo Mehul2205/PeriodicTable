@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <bottom>
+      <Pane prefHeight="800.0" prefWidth="1300.0" style="-fx-background-color: #ffffff;" stylesheets="@application.css" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="59.0" layoutY="189.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P1-button" stylesheets="@application.css" text="Li" userData="3">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="59.0" layoutY="154.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="gas-button" stylesheets="@application.css" text="H" userData="1">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="59.0" layoutY="329.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P1-button" stylesheets="@application.css" text="Cs" userData="55">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="59.0" layoutY="294.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P1-button" stylesheets="@application.css" text="Rb" userData="37">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="59.0" layoutY="259.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P1-button" stylesheets="@application.css" text="K" userData="19">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="59.0" layoutY="224.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P1-button" stylesheets="@application.css" text="Na" userData="11">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="59.0" layoutY="364.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P1-button" stylesheets="@application.css" text="Fr" userData="87">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="124.0" layoutY="189.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P2-button" stylesheets="@application.css" text="Be" userData="4">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="124.0" layoutY="330.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P2-button" stylesheets="@application.css" text="Ba" userData="56">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="124.0" layoutY="295.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P2-button" stylesheets="@application.css" text="Sr" userData="38">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="124.0" layoutY="260.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P2-button" stylesheets="@application.css" text="Ca" userData="20">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="124.0" layoutY="224.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P2-button" stylesheets="@application.css" text="Mg" userData="12">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="124.0" layoutY="365.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P2-button" stylesheets="@application.css" text="Ra" userData="88">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="255.0" layoutY="330.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Hf" userData="72">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="255.0" layoutY="295.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Zr" userData="40">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="255.0" layoutY="259.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Ti" userData="22">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="255.0" layoutY="365.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Rf" userData="104">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="190.0" layoutY="330.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Lu" userData="71">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button layoutX="190.0" layoutY="295.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Y" userData="39">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="190.0" layoutY="259.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Sc" userData="21">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="190.0" layoutY="365.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Lr" userData="103">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </Button>
+            <Button layoutX="320.0" layoutY="331.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Ta" userData="73">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="320.0" layoutY="296.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Nb" userData="41">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="320.0" layoutY="260.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="V" userData="23">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="320.0" layoutY="366.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="DB" userData="105">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="385.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="W" userData="74">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="385.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Mo" userData="42">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="385.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Cr" userData="24">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="385.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Sg" userData="106">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="451.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Re" userData="75">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="451.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Tc" userData="43">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="451.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Mn" userData="25">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="451.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Bh" userData="107">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="516.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Os" userData="76">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="516.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Ru" userData="44">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="516.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Fe" userData="26">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="516.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Hs" userData="108">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="582.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Ir" userData="77">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="582.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Rh" userData="45">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="582.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Co" userData="27">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="582.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Mt" userData="109">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="647.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Pt" userData="78">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="647.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Pd" userData="46">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="647.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Ni" userData="28">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="647.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Ds" userData="110">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="712.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Au" userData="79">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="712.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Ag" userData="47">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="712.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Cu" userData="29">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="712.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Rg" userData="111">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="777.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Hg" userData="80">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="777.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Cd" userData="48">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="777.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Zn" userData="30">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="777.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Dblock-button" stylesheets="@application.css" text="Cn" userData="112">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="842.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Tl" userData="81">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="842.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="In" userData="49">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="842.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Ga" userData="31">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="842.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Nh" userData="113">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="842.0" layoutY="226.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Al" userData="13">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="842.0" layoutY="190.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Diagonal-button" stylesheets="@application.css" text="B" userData="5">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="907.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Pb" userData="82">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="907.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Sn" userData="50">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="907.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Diagonal-button" stylesheets="@application.css" text="Ge" userData="32">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="907.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Fl" userData="114">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="907.0" layoutY="226.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Diagonal-button" stylesheets="@application.css" text="Si" userData="14">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="902.0" layoutY="190.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="gas-button" stylesheets="@application.css" text="C" userData="6">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="972.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Bi" userData="83">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="972.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Diagonal-button" stylesheets="@application.css" text="Sb" userData="51">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="972.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Diagonal-button" stylesheets="@application.css" text="As" userData="33">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="972.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Mc" userData="115">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="967.0" layoutY="226.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="gas-button" stylesheets="@application.css" text="P" userData="15">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="967.0" layoutY="190.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="gas-button" stylesheets="@application.css" text="N" userData="7">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1037.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Diagonal-button" stylesheets="@application.css" text="Po" userData="84">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1037.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Diagonal-button" stylesheets="@application.css" text="Te" userData="52">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1032.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="gas-button" stylesheets="@application.css" text="Se" userData="34">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1037.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P13-button" stylesheets="@application.css" text="Lv" userData="116">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1032.0" layoutY="226.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="gas-button" stylesheets="@application.css" text="S" userData="16">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1032.0" layoutY="190.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="gas-button" stylesheets="@application.css" text="O" userData="8">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1102.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P17-button" stylesheets="@application.css" text="At" userData="85">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1102.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P17-button" stylesheets="@application.css" text="I" userData="53">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1102.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P17-button" stylesheets="@application.css" text="Br" userData="35">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1102.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P17-button" stylesheets="@application.css" text="Ts" userData="117">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1102.0" layoutY="226.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P17-button" stylesheets="@application.css" text="Cl" userData="17">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1102.0" layoutY="190.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="P17-button" stylesheets="@application.css" text="F" userData="9">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1168.0" layoutY="332.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="noble-button" stylesheets="@application.css" text="Rn" userData="86">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1168.0" layoutY="297.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="noble-button" stylesheets="@application.css" text="Xe" userData="54">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1168.0" layoutY="261.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="noble-button" stylesheets="@application.css" text="Kr" userData="36">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1168.0" layoutY="367.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="noble-button" stylesheets="@application.css" text="Og" userData="118">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1168.0" layoutY="226.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="noble-button" stylesheets="@application.css" text="Ar" userData="18">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1168.0" layoutY="190.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="noble-button" stylesheets="@application.css" text="Ne" userData="10">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1168.0" layoutY="153.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="noble-button" stylesheets="@application.css" text="He" userData="2">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="255.0" layoutY="465.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Ce" userData="58">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="190.0" layoutY="464.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="La" userData="57">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="320.0" layoutY="466.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Pr" userData="59">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="385.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Nd" userData="60">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="451.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Pm" userData="61">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="516.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Sm" userData="62">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="582.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Eu" userData="63">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="647.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Gd" userData="64">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="712.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Tb" userData="65">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="777.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Dy" userData="66">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="842.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Ho" userData="67">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="907.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Er" userData="68">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="972.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Tm" userData="69">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1037.0" layoutY="467.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="La-button" stylesheets="@application.css" text="Yb" userData="70">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="255.0" layoutY="502.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Th" userData="90">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="190.0" layoutY="502.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Ac" userData="89">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="320.0" layoutY="503.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Pa" userData="91">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="385.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="U" userData="92">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="451.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Np" userData="93">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="516.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Pu" userData="94">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="582.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Am" userData="95">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="647.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Cm" userData="96">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="712.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Bk" userData="97">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="777.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Cf" userData="98">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="842.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Es" userData="99">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="907.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Fm" userData="100">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="972.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="Md" userData="101">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Button layoutX="1037.0" layoutY="504.0" mnemonicParsing="false" onAction="#numChange" prefHeight="30.0" prefWidth="60.0" styleClass="Ac-button" stylesheets="@application.css" text="No" userData="102">
+               <effect>
+                  <DropShadow />
+               </effect></Button>
+            <Accordion layoutX="344.0" />
+            <Line endX="1058.5999755859375" layoutX="167.0" layoutY="80.0" startX="-100.0" strokeWidth="5.0" />
+            <TextArea fx:id="outputText" layoutX="300.0" layoutY="591.0" prefHeight="169.0" prefWidth="701.0" style="-fx-border-color: #ffaaaa; -fx-border-width: 5;" styleClass="textarea" stylesheets="@application.css" wrapText="true">
+               <effect>
+                  <InnerShadow />
+               </effect></TextArea>
+            <Line endX="-77.1252670288086" layoutX="178.0" layoutY="92.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="242.0" layoutY="92.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="308.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="373.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="438.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="503.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="569.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="634.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="700.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="765.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="830.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="895.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="960.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="1025.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="1090.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="1155.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="1220.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Line endX="-77.1252670288086" layoutX="1286.0" layoutY="93.0" rotate="90.0" startX="-100.0" strokeWidth="3.0" />
+            <Text layoutX="87.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+            <Text layoutX="150.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+            <Text layoutX="217.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+            <Text layoutX="283.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+            <Text layoutX="346.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+            <Text layoutX="410.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" />
+            <Text layoutX="478.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" />
+            <Text layoutX="543.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="8" />
+            <Text layoutX="609.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" />
+            <Text layoutX="670.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="10" />
+            <Text layoutX="735.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="11" />
+            <Text layoutX="799.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" />
+            <Text layoutX="865.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="13" />
+            <Text layoutX="931.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="14" />
+            <Text layoutX="995.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="15" />
+            <Text layoutX="1059.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="16" />
+            <Text layoutX="1125.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="17" />
+            <Text layoutX="1191.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="18" />
+            <Text layoutX="190.0" layoutY="353.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*" />
+            <Text layoutX="192.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*" />
+            <Text layoutX="192.0" layoutY="393.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*" />
+            <Text layoutX="167.0" layoutY="486.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*" />
+            <Text layoutX="167.0" layoutY="520.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*" />
+            <Text layoutX="167.0" layoutY="530.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*" />
+            <Text layoutX="36.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+            <Text layoutX="36.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+            <Text layoutX="35.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" />
+            <Text layoutX="35.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4" />
+            <Text layoutX="35.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="5" />
+            <Text layoutX="35.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" />
+            <Text layoutX="35.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7" />
+            <Text layoutX="22.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Period" />
+            <Text layoutX="18.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Group" />
+         </children>
+      </Pane>
+   </bottom>
+</BorderPane>
