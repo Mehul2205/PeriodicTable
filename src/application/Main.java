@@ -23,11 +23,17 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-
+			// Loading FXML page that is seen in the front end.
 			BorderPane root = (BorderPane)FXMLLoader.load(getClass().getResource("Sample.fxml"));
+			
+			// Defining size of the scene
 			Scene scene = new Scene(root,1300,800);
+
+			// Adding Additional Resources like css file.
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
+			
+			// Display
 			primaryStage.show();
 			
 		} catch(Exception e) {
@@ -36,6 +42,8 @@ public class Main extends Application {
 	}
 	
 	public static void main(String[] args) {
+		
+		// Launching the above code.
 		launch(args);
 	}
 }

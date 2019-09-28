@@ -19,6 +19,7 @@ import javafx.scene.control.TextArea;
 
 public class SampleController {
 
+    // Importing excel file where all data is present.
 	private static final String FILE_NAME = "PT1.xlsx";
     
     @FXML
@@ -35,17 +36,24 @@ public class SampleController {
 			
             FileInputStream excelFile = new FileInputStream(new File(FILE_NAME));
             Workbook workbook = new XSSFWorkbook(excelFile);
+            
+            // To read first sheet of excel document
             Sheet datatypeSheet = workbook.getSheetAt(0);
+
+                // Reading Row1
             	Row current1 = datatypeSheet.getRow(0);
             	
+                // Reading the row, which element was clicked
                 Row currentRow = datatypeSheet.getRow(value);
                 Iterator<Cell> cellIterator = currentRow.iterator();
                 Iterator<Cell> cellIterator2 = current1.iterator();
                 outputText.setText("");
                 while (cellIterator2.hasNext()) {
-
+                    
+                    // Moving to next cell
                     Cell currentCell = cellIterator.next();
                     
+                    // Printing Values if Exists.
                     Cell c1 = cellIterator2.next();
                     if (currentCell.getCellType() == Cell.CELL_TYPE_STRING) {
                     	outputText.appendText(c1.getStringCellValue()+" = "+currentCell.getStringCellValue()+"\t\t");
